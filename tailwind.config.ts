@@ -12,8 +12,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      scale: {
+        125: '1.25', // 125%
+        150: '1.5',  // 150%
+        175: '1.75', // 175%
+        200: '2',    // 200%
+      },
+      fontFamily: {
+        BebasNeue: ['Bebas Neue', 'sans-serif'],
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
